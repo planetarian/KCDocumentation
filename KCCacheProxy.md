@@ -45,8 +45,8 @@ The proxy also allows players outside Japan to bypass the current foreign IP blo
 1) Install the browser extension ProxySwitch Omega:
    https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif
 
-2) You should have a little circle icon next to the browser's address bar for
-   ProxySwitch Omega. Click it, and click `Options`. It will try to guide you
+2) You should have a little circle icon for ProxySwitch Omega next to the browser's
+   address bar. Click it, and click `Options`. It will try to guide you
    through stuff, feel free to click your way through or skip the tutorial messages.
 
    ![Accessing ProxySwitch Omega options](/KCCacheProxy/B2.png)
