@@ -35,8 +35,8 @@ No game files are modified in the process.
    
    ![KCCacheProxy-master folder contents](/KCCacheProxy/A5.png)
 
-6) Hold the `Shift` key and right-click anywhere inside the `KCCacheProxy-master`
-   folder, under the files mentioned above. Click `Open PowerShell window here`,
+6) Hold the `Shift` key and right-click anywhere in the empty space inside the `KCCacheProxy-master`
+   folder, *under* the files mentioned above. Click `Open PowerShell window here`,
    or `Open command prompt here`, whichever is present.
    
    ![Right-click menu options](/KCCacheProxy/A6.png)
