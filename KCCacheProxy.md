@@ -92,3 +92,5 @@ you will begin seeing `GET:` messages in the console. If you see `403` messages,
 If you close the console window, the proxy will stop running, and your game will not work.
 If you want to play without the proxy, just click the ProxySwitch Omega icon
 in your browser, and click `[System Proxy]`.
+
+   ![Disabling proxy](/KCCacheProxy/C2.png)
