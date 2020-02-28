@@ -24,6 +24,10 @@ No game files are modified in the process.
 
 4) Extract `KCCacheProxy-master.zip` somewhere. Doesn't matter where;
    `Downloads` folder is fine. You should now have a `KCCacheProxy-master` folder.
+   
+   ![Right click the file and click 'extract'](/KCCacheProxy/A4.png)
+   
+   ![Then extract to your Downloads folder, or wherever](/KCCacheProxy/A4b.png)
 
 5) Open the `KCCacheProxy-master` folder, you should see a number of files.
    Extract the `cache-2020-02-28.zip` here. this should create a `cache` folder.
