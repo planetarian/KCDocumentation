@@ -11,19 +11,23 @@ No game files are modified in the process.
 ## Installing/starting the proxy:
 
 1) Download and install node.js:
+
    https://nodejs.org/dist/v12.16.1/node-v12.16.1-x64.msi
 
 2) Download `KCCacheProxy-master.zip`:
+
    https://github.com/Tibowl/KCCacheProxy/archive/master.zip
 
-3) Download `cache-2020-02-25.zip`
-   https://mega.nz/#!1DRC2QYR!h4jYzQL5XEg6-9wnSmna1igqsjQL4RqwVWev6NTwBTg
+3) Download `cache-2020-02-28.zip`:
+
+   https://mega.nz/#!lPxTzLIC!-PsXIeVqVM1o9iZPCRp4ruQ--KlYWVKxSG7awF5qUbU
 
 4) Extract `KCCacheProxy-master.zip` somewhere. Doesn't matter where;
    `Downloads` folder is fine. You should now have a `KCCacheProxy-master` folder.
 
 5) Open the `KCCacheProxy-master` folder, you should see a number of files.
-   Extract the `cache-2020-02-25.zip` here. this should create a `cache` folder.
+   Extract the `cache-2020-02-28.zip` here. this should create a `cache` folder.
+   Your `KCCacheProxy-master` folder contents should now look like this:
    
    ![KCCacheProxy-master folder contents](/KCCacheProxy/A5.png)
 
