@@ -1,4 +1,11 @@
-**Installing/starting the proxy:**
+# KCCacheProxy
+This is an app by Tibo which sits between you and the game servers, and acts as a
+second cache. It greatly reduces the amount of time spent downloading game assets
+from the KanColle servers, and generally improves the responsiveness of the game.
+No game files are modified in the process.
+The proxy also allows players outside Japan to bypass the current foreign IP block.
+
+## Installing/starting the proxy:
 
 1) Download and install node.js:
    https://nodejs.org/dist/v12.16.1/node-v12.16.1-x64.msi
@@ -33,7 +40,7 @@
    ![Running the proxy](/KCCacheProxy/A8.png)
 
  
-**Enabling proxy for Chrome/KC3:**
+## Enabling proxy for Chrome/KC3:
 
 1) Install the browser extension ProxySwitch Omega:
    https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif
