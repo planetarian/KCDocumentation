@@ -1,4 +1,4 @@
-Installing/starting the proxy:
+**Installing/starting the proxy:**
 
 1) Download and install node.js:
    https://nodejs.org/dist/v12.16.1/node-v12.16.1-x64.msi
@@ -25,7 +25,7 @@ Installing/starting the proxy:
    *Repeat this step in the future whenever you wish to restart the proxy.*
 
  
-Enabling proxy for Chrome/KC3:
+**Enabling proxy for Chrome/KC3:**
 
 1) Install the browser extension ProxySwitch Omega:
    https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif
@@ -45,7 +45,8 @@ Enabling proxy for Chrome/KC3:
 ```      | Condition Type | Condition Details          | Profile
       | URL wildcard   | http://yourserverip/kcs/*  | proxy
       | URL wildcard   | http://yourserverip/kcs2/* | proxy
-      | URL wildcard   | http://203.104.209.7/*     | proxy```
+      | URL wildcard   | http://203.104.209.7/*     | proxy
+```
    You can find your server's IP address by looking up your server here:
    https://kancolle.fandom.com/wiki/Servers
 
