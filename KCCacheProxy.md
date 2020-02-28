@@ -2,7 +2,9 @@
 This is an app by Tibo which sits between you and the game servers, and acts as a
 second cache. It greatly reduces the amount of time spent downloading game assets
 from the KanColle servers, and generally improves the responsiveness of the game.
+
 No game files are modified in the process.
+
 The proxy also allows players outside Japan to bypass the current foreign IP block.
 
 ## Installing/starting the proxy:
