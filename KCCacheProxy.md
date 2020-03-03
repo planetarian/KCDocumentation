@@ -87,7 +87,8 @@ the system tray; you must use the system tray menu for this.
 ## Playing with proxy
 
 If everything worked, after you restart your browser and attempt to access the game,
-you will begin seeing `GET:` messages in the console. If you see `403` messages, this is normal.
+you will begin seeing `GET:` messages in the console (if you have it visible).
+If you see `403` messages, this is normal.
 
    ![Normal proxy operation](/KCCacheProxy/C1.png)
 
