@@ -14,9 +14,9 @@ No game files are modified in the process.
 
    https://github.com/planetarian/KCCacheProxy/releases/download/v1.1/KCCacheProxy-win.zip
 
-2) Download `cache-2020-02-28.zip`:
+2) Download `cache-2020-03-03.zip`:
 
-   https://mega.nz/#!lPxTzLIC!-PsXIeVqVM1o9iZPCRp4ruQ--KlYWVKxSG7awF5qUbU
+   https://mega.nz/#!ZbBwDAwR!um_vv_DL1TzFZgnO0ANhsZpEl4e67FcRCGoOf25y8pA
 
 3) Extract `KCCacheProxy-win.zip` somewhere. Doesn't matter where;
    `Downloads` folder is fine. You should now have a `KCCacheProxy-win` folder.
