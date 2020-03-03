@@ -29,13 +29,15 @@ No game files are modified in the process.
    Extract the `cache-2020-02-28.zip` here. this should create a `cache` folder.
    Your `KCCacheProxy-win` folder contents should now look like this:
    
-   ![KCCacheProxy-master folder contents](/KCCacheProxy/A5.png)
+   ![KCCacheProxy-win folder contents](/KCCacheProxy/A5.png)
 
 5) Open `proxy-win.exe`. Accept the firewall request if prompted.
 
 The proxy app will appear as an icon in your system tray.
 If you don't see the icon, it may be hidden; click the arrow next to the system tray
 to see hidden icons.
+
+   ![System tray icon](/KCCacheProxy/A9.png)
 
 You can use this icon (via right-click menu) to show the console, or close the proxy.
 Note that the minimize/close buttons on the console window *will not* send it back to
