@@ -26,7 +26,7 @@ No game files are modified in the process.
    ![Then extract to your Downloads folder, or wherever](/KCCacheProxy/A4b.png)
 
 4) Open the `KCCacheProxy-win` folder, you should see a number of files.
-   Extract the `cache-2020-02-28.zip` here. this should create a `cache` folder.
+   Extract the `cache-2020-03-03.zip` here. this should create a `cache` folder.
    Your `KCCacheProxy-win` folder contents should now look like this:
    
    ![KCCacheProxy-win folder contents](/KCCacheProxy/A5.png)
