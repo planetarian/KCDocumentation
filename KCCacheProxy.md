@@ -92,9 +92,9 @@ you will begin seeing `GET:` messages in the console. If you see `403` messages,
    ![Normal proxy operation](/KCCacheProxy/C1.png)
 
 ### Notes
-*You must leave the proxy console window open while you play.*
-If you close the console window, the proxy will stop running, and your game will not work.
-If you want to play without the proxy, just click the ProxySwitch Omega icon
-in your browser, and click `[System Proxy]`.
+*You must leave the proxy running while you play.*
+If you exit the proxy, your game will not work.
+If you want to play without the proxy, click the ProxySwitch Omega icon in your browser,
+and click `[System Proxy]`:
 
    ![Disabling proxy](/KCCacheProxy/C2.png)
