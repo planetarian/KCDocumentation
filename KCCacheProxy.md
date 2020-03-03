@@ -8,47 +8,38 @@ The proxy also allows players outside Japan to bypass the current foreign IP blo
 No game files are modified in the process.
 
 
-## Installing/starting the proxy:
+## Installing/starting the proxy (Windows):
 
-1) Download and install node.js:
+1) Windows: Download `KCCacheProxy-win.zip`:
 
-   https://nodejs.org/dist/v12.16.1/node-v12.16.1-x64.msi
+   https://github.com/planetarian/KCCacheProxy/releases/download/v1.1/KCCacheProxy-win.zip
 
-2) Download `KCCacheProxy-master.zip`:
-
-   https://github.com/Tibowl/KCCacheProxy/archive/master.zip
-
-3) Download `cache-2020-02-28.zip`:
+2) Download `cache-2020-02-28.zip`:
 
    https://mega.nz/#!lPxTzLIC!-PsXIeVqVM1o9iZPCRp4ruQ--KlYWVKxSG7awF5qUbU
 
-4) Extract `KCCacheProxy-master.zip` somewhere. Doesn't matter where;
-   `Downloads` folder is fine. You should now have a `KCCacheProxy-master` folder.
+3) Extract `KCCacheProxy-win.zip` somewhere. Doesn't matter where;
+   `Downloads` folder is fine. You should now have a `KCCacheProxy-win` folder.
    
    ![Right click the file and click 'extract'](/KCCacheProxy/A4.png)
    
    ![Then extract to your Downloads folder, or wherever](/KCCacheProxy/A4b.png)
 
-5) Open the `KCCacheProxy-master` folder, you should see a number of files.
+4) Open the `KCCacheProxy-win` folder, you should see a number of files.
    Extract the `cache-2020-02-28.zip` here. this should create a `cache` folder.
-   Your `KCCacheProxy-master` folder contents should now look like this:
+   Your `KCCacheProxy-win` folder contents should now look like this:
    
    ![KCCacheProxy-master folder contents](/KCCacheProxy/A5.png)
 
-6) Hold the `Shift` key and right-click anywhere in the empty space inside the `KCCacheProxy-master`
-   folder, *under* the files mentioned above. Click `Open PowerShell window here`,
-   or `Open command prompt here`, whichever is present.
-   
-   ![Right-click menu options](/KCCacheProxy/A6.png)
+5) Open `proxy-win.exe`. Accept the firewall request if prompted.
 
-7) A console window will open. Type `npm i` and press Enter.
+The proxy app will appear as an icon in your system tray.
+If you don't see the icon, it may be hidden; click the arrow next to the system tray
+to see hidden icons.
 
-   ![Installing npm packages](/KCCacheProxy/A7.png)
-
-8) Type `node proxy` and press Enter, ***OR*** double-click `start.bat`.
-   *Repeat this step in the future whenever you wish to restart the proxy.*
-
-   ![Running the proxy](/KCCacheProxy/A8.png)
+You can use this icon (via right-click menu) to show the console, or close the proxy.
+Note that the minimize/close buttons on the console window *will not* send it back to
+the system tray; you must use the system tray menu for this.
 
  
 ## Enabling proxy for Chrome/KC3:
