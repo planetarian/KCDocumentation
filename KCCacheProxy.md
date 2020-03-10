@@ -12,7 +12,7 @@ No game files are modified in the process.
 
 1) Download `KCCacheProxy-win.zip`:
 
-   https://github.com/planetarian/KCCacheProxy/releases/download/v1.1/KCCacheProxy-win.zip
+   https://github.com/planetarian/KCCacheProxy/releases/download/1.3/KCCacheProxy-win.zip
 
 2) Download `cache-2020-03-07.zip`:
 
