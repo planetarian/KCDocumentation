@@ -10,39 +10,16 @@ No game files are modified in the process.
 
 ## Installing/starting the proxy (Windows):
 
-1) Download `KCCacheProxy-win.zip`:
+1) Download and install the proxy:
 
    https://github.com/planetarian/KCCacheProxy/releases/download/v1.6/KCCacheProxy-win.zip
 
-2) Download `cache-2020-03-07.zip`:
+2) Open KCCacheProxy from your start menu, configure the options as desired (Recommended: check 'Start in system tray'), and click "Import built-in basic cache dump".
 
-   https://mega.nz/#!MLRwEAQA!LRTokFd1enTCU35D6u1pS3k5eoutcX_H7WjNw521_VI
-
-3) Extract `KCCacheProxy-win.zip` somewhere. Doesn't matter where;
-   `Downloads` folder is fine. You should now have a `KCCacheProxy-win` folder.
+   ![Importing basic cache dump](/KCCacheProxy/A10.png)
    
-   ![Right click the file and click 'extract'](/KCCacheProxy/A4.png)
-   
-   ![Then extract to your Downloads folder, or wherever](/KCCacheProxy/A4b.png)
-
-4) Open the `KCCacheProxy-win` folder, you should see a number of files.
-   Extract the `cache-2020-03-07.zip` here. this should create a `cache` folder.
-   Your `KCCacheProxy-win` folder contents should now look like this:
-   
-   ![KCCacheProxy-win folder contents](/KCCacheProxy/A5.png)
-
-5) Open `proxy-win.exe`. Accept the firewall request if prompted.
-
-The proxy app will appear as an icon in your system tray.
-If you don't see the icon, it may be hidden; click the arrow next to the system tray
-to see hidden icons.
-
-   ![System tray icon](/KCCacheProxy/A9.png)
-
-You can use this icon (via right-click menu) to show the console, or close the proxy.
-Note that the minimize/close buttons on the console window *will not* send it back to
-the system tray; you must use the system tray menu for this.
-
+You may now close the window, and it will continue running in your system tray.
+It should start automatically with Windows; if it does not appear in the system tray after you start Windows, you can launch it from the start menu.
  
 ## Enabling proxy for Chrome/KC3:
 
