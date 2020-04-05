@@ -12,7 +12,7 @@ No game files are modified in the process.
 
 Download and install the proxy:
 
-   https://github.com/planetarian/KCCacheProxy/releases/download/v1.6/KCCacheProxy-win.zip
+   https://github.com/Tibowl/KCCacheProxy/releases/download/v2.0.0-pre1/KCCacheProxy-2.0.0-pre1.Setup.exe
 
 ## Setting up the cache
 
