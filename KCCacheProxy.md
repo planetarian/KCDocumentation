@@ -14,10 +14,31 @@ No game files are modified in the process.
 
    https://github.com/planetarian/KCCacheProxy/releases/download/v1.6/KCCacheProxy-win.zip
 
-2) Open KCCacheProxy from your start menu, configure the options as desired (Recommended: check 'Start in system tray'), and click "Import built-in basic cache dump".
+## Setting up the cache
+
+You have the option of either starting from a minimal cache, containing only the most crucial set of starting files, OR you can start from a full cache dump, which is 4+ GB and may take some time to download.
+
+If you start from the full cache dump, the proxy will have almost all game files already cached when you play. If you start from the minimal cache, the cache will initially be empty, and will be built up as you play.
+
+### Option A: Minimal cache:
+
+Open KCCacheProxy from your start menu, configure the options as desired (Recommended: check 'Start in system tray'), and click "Import built-in basic cache dump".
 
    ![Importing basic cache dump](/KCCacheProxy/A10.png)
    
+### Option B: Full cache dump:
+
+1) Download `cache-2020-03-07.zip`:
+
+   https://mega.nz/#!MLRwEAQA!LRTokFd1enTCU35D6u1pS3k5eoutcX_H7WjNw521_VI
+   
+2) Open Windows Explorer and navigate to `%AppData%\KCCacheProxy\ProxyData` via your address bar.
+   Extract the `cache-2020-03-07.zip` here. this should create a `cache` folder.
+
+3) Back in the KCCacheProxy window, click 'Reload Cache'.
+
+### After cache has been configured
+
 You may now close the window, and it will continue running in your system tray.
 It should start automatically with Windows; if it does not appear in the system tray after you start Windows, you can launch it from the start menu.
  
