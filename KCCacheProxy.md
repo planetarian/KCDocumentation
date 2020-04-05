@@ -10,7 +10,7 @@ No game files are modified in the process.
 
 ## Installing/starting the proxy (Windows):
 
-1) Download and install the proxy:
+Download and install the proxy:
 
    https://github.com/planetarian/KCCacheProxy/releases/download/v1.6/KCCacheProxy-win.zip
 
