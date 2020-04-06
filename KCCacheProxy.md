@@ -28,12 +28,12 @@ Open KCCacheProxy from your start menu, configure the options as desired (Recomm
    
 ### Option B: Full cache dump:
 
-1) Download `cache-2020-03-07.zip`:
+1) Download `cache-2020-03-28.zip`:
 
-   https://mega.nz/#!MLRwEAQA!LRTokFd1enTCU35D6u1pS3k5eoutcX_H7WjNw521_VI
+   https://mega.nz/folder/sOwClABa#yHldyYZr2MBqhTNYEupztg/file/oCImRS5R
    
 2) Open Windows Explorer and navigate to `%AppData%\KCCacheProxy\ProxyData` via your address bar.
-   Extract the `cache-2020-03-07.zip` here. this should create a `cache` folder.
+   Extract the `cache-2020-03-28.zip` here. this should create a `cache` folder.
 
 3) Back in the KCCacheProxy window, click 'Reload Cache'.
 
