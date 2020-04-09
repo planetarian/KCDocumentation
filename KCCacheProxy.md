@@ -23,21 +23,34 @@ If you start from the full cache dump, the proxy will have almost all game files
 ### Option A: Minimal cache:
 
 Open KCCacheProxy from your start menu, configure the options as desired.
-Recommended: check 'Start in system tray' and 'Bypass checking for gadget updates'.
+
+(Recommended: check 'Start in system tray' and 'Bypass checking for gadget updates'.)
+
 Click "Import built-in basic cache dump", and click 'Save'.
 
    ![Importing basic cache dump](/KCCacheProxy/A10.png)
    
 ### Option B: Full cache dump:
 
-1) Download `cache-2020-03-28.zip`:
+1) Download the latest cache dump (check the date) from here:
 
-   https://mega.nz/folder/sOwClABa#yHldyYZr2MBqhTNYEupztg/file/oCImRS5R
+   https://mega.nz/#F!sOwClABa!yHldyYZr2MBqhTNYEupztg
    
-2) Open Windows Explorer and navigate to `%AppData%\KCCacheProxy\ProxyData` via your address bar.
-   Extract the `cache-2020-03-28.zip` here. this should create a `cache` folder.
+2) Open Windows Explorer and navigate to where you downloaded the file (If you're not sure, you can probably get there by putting `%UserProfile%\Downloads` in your address bar).
 
-3) Back in the KCCacheProxy window, click 'Reload Cache'.
+3) Extract the cache dump you downloaded (should be something like `cache-<date>.zip`) anywhere. This should create a `cache` folder in the extracted location.
+
+4) Enter the `cache` folder, and copy the path from the address bar.
+
+5) Open KCCacheProxy from your start menu, and paste the copied path in the `Cache location` field.
+
+6) Configure the rest of the options as desired.
+
+(Recommended: check `Start in system tray` and `Bypass checking for gadget updates`.)
+
+7) Click `Save`.
+
+   ![Configuring full cache dump](/KCCacheProxy/A12.png)
 
 ### After cache has been configured
 
@@ -57,7 +70,7 @@ It should start automatically with Windows; if it does not appear in the system 
 
 3) In the options screen, on the left menu, under Settings, select `Import/Export`. 
 4) Enter the following address in the 'Restore from online' field:
-   https://github.com/planetarian/KCDocumentation/blob/master/KCCacheProxy/OmegaOptions.json
+   https://raw.githubusercontent.com/Tibowl/KCCacheProxy/master/misc/OmegaOptions.bak
 5) Click 'Restore'.
 
    ![Configuring proxy server](/KCCacheProxy/A11.png)
