@@ -24,9 +24,9 @@ If you start from the full cache dump, the proxy will have almost all game files
 
 Open KCCacheProxy from your start menu, configure the options as desired.
 
-(Recommended: check 'Start in system tray' and 'Bypass checking for gadget updates'.)
+(Recommended: check `Start in system tray` and `Bypass checking for gadget updates`.)
 
-Click "Import built-in basic cache dump", and click 'Save'.
+Click `Import built-in basic cache dump`, and click `Save`.
 
    ![Importing basic cache dump](/KCCacheProxy/A10.png)
    
@@ -68,15 +68,15 @@ It should start automatically with Windows; if it does not appear in the system 
 
    ![Accessing ProxySwitch Omega options](/KCCacheProxy/B2.png)
 
-3) In the options screen, on the left menu, under Settings, select `Import/Export`. 
-4) Enter the following address in the 'Restore from online' field:
+3) In the options screen, on the left menu, under `Settings`, select `Import/Export`. 
+4) Enter the following address in the `Restore from online` field:
    https://raw.githubusercontent.com/Tibowl/KCCacheProxy/master/misc/OmegaOptions.bak
-5) Click 'Restore'.
+5) Click `Restore`.
 
    ![Configuring proxy server](/KCCacheProxy/A11.png)
 
 6) Click ProxySwitch's circle icon next to the address bar again,
-   and click `auto switch`.
+   and click `Auto Switch`.
 
    ![Activating the proxy connection](/KCCacheProxy/B8.png)
 
