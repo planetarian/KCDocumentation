@@ -1,3 +1,4 @@
+   ![KCCacheProxy icon](/KCCacheProxy/200403_asashiofairy_sm.png)
 # KCCacheProxy
 This is an app by Tibo which sits between you and the game servers, and acts as a
 second cache. It greatly reduces the amount of time spent downloading game assets
