@@ -53,33 +53,19 @@ It should start automatically with Windows; if it does not appear in the system 
 
    ![Accessing ProxySwitch Omega options](/KCCacheProxy/B2.png)
 
-3) In the options screen, on the left menu, under Profiles, select `proxy`.
-4) Under `Proxy Servers`, set the `Server` field to `127.0.0.1`,
-   and the `Port` field to `8081`, then click `Apply Changes` on the left.
+3) In the options screen, on the left menu, under Settings, select `Import/Export`. 
+4) Enter the following address in the 'Restore from online' field:
+   https://github.com/planetarian/KCDocumentation/blob/master/KCCacheProxy/OmegaOptions.json
+5) Click 'Restore'.
 
-   ![Configuring proxy server](/KCCacheProxy/B4.png)
+   ![Configuring proxy server](/KCCacheProxy/A11.png)
 
-5) On the left menu, under `Profiles`, select `auto switch`.
-6) You will see some default entries in the page that appears; delete these
-   and use the `Add condition` button to add the following three entries,
-   replacing `yourserverip` with your KC server's IP address:
-```      | Condition Type | Condition Details          | Profile
-      | URL wildcard   | http://yourserverip/kcs/*  | proxy
-      | URL wildcard   | http://yourserverip/kcs2/* | proxy
-      | URL wildcard   | http://203.104.209.7/*     | proxy
-```
-   You can find your server's IP address by looking up your server here:
-   https://kancolle.fandom.com/wiki/Servers
-
-   ![Configuring proxy traffic](/KCCacheProxy/B6.png)
-
-7) Click `Apply changes` on the left.
-8) Click ProxySwitch's circle icon next to the address bar again,
+6) Click ProxySwitch's circle icon next to the address bar again,
    and click `auto switch`.
 
    ![Activating the proxy connection](/KCCacheProxy/B8.png)
 
-9) Restart your browser.
+7) Restart your browser.
 
 
 ## Playing with proxy
