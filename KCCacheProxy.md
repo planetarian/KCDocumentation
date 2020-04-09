@@ -22,7 +22,9 @@ If you start from the full cache dump, the proxy will have almost all game files
 
 ### Option A: Minimal cache:
 
-Open KCCacheProxy from your start menu, configure the options as desired (Recommended: check 'Start in system tray'), and click "Import built-in basic cache dump".
+Open KCCacheProxy from your start menu, configure the options as desired.
+Recommended: check 'Start in system tray' and 'Bypass checking for gadget updates'.
+Click "Import built-in basic cache dump", and click 'Save'.
 
    ![Importing basic cache dump](/KCCacheProxy/A10.png)
    
