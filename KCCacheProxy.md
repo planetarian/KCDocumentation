@@ -13,7 +13,8 @@ No game files are modified in the process.
 
 Download and install the proxy:
 
-   https://github.com/Tibowl/KCCacheProxy/releases/download/v2.1.0/KCCacheProxy-2.1.0.Setup.exe
+   https://github.com/Tibowl/KCCacheProxy/releases/download/v2.1.1/KCCacheProxy-2.1.1.Setup.exe
+   or check for the latest release on https://github.com/Tibowl/KCCacheProxy/releases
 
 ## Setting up the cache
 
