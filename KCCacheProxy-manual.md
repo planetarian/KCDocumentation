@@ -1,6 +1,6 @@
 To install the Electron version of KCCacheProxy without having to run the installation exe (allowing you to place the application files wherever you like):
 
-1) Install 7-zip:
+1) Install 7-zip (optional; if you use another tool e.g. WinRAR you can use that instead. Just adapt the following instructions to it):
 
    32-bit: https://www.7-zip.org/a/7z1900.exe
 
