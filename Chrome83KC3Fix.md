@@ -13,7 +13,7 @@ Since KanColle itself is loaded in an iframe on DMM.com, this triggers the bug.
 
 (see bug report at https://bugs.chromium.org/p/chromium/issues/detail?id=1081270 )
 
-## The fix
+## The workaround
 
 ### Option A: Disable Site Isolation
 The simplest fix is to disable Site Isolation. You can do this by navigating to `about:flags/#site-isolation-trial-opt-out` in your browser and setting the 'Disable site isolation' option to 'Disabled'.
