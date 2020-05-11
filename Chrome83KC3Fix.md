@@ -9,7 +9,9 @@ This creates the potential for accidents, so further, more effective workarounds
 
 An issue with Chrome 83's Site Isolation feature (intended to protect against i.e. Spectre) causes the chrome devtools network API to stop firing events when content from a different origin is loaded in an iframe.
 
-Since KanColle itself is loaded in an iframe on DMM.com, this triggers the bug. (see bug report at https://bugs.chromium.org/p/chromium/issues/detail?id=1081270 )
+Since KanColle itself is loaded in an iframe on DMM.com, this triggers the bug.
+
+(see bug report at https://bugs.chromium.org/p/chromium/issues/detail?id=1081270 )
 
 ## The fix
 
