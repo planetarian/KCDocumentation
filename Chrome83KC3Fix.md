@@ -18,7 +18,7 @@ Since KanColle itself is loaded in an iframe on DMM.com, this triggers the bug.
 You have a few options at your disposal. You can either disable the feature causing the bug, or find a way to stay on Chrome v81.
 
 ### Option A: Disable Site Isolation
-The simplest fix is to disable Site Isolation. You can do this by navigating to `about:flags/#site-isolation-trial-opt-out` in your browser and setting the 'Disable site isolation' option to 'Disabled (not recommended)'.
+The simplest fix is to disable Site Isolation. You can do this by navigating to `about:flags/#site-isolation-trial-opt-out` in your browser and setting the 'Disable site isolation' option to "**Disabled (not recommended)**".
 
 Remember, Site Isolation is a security feature. Disabling it could leave you potentially vulnerable to certain types of attacks if you're not careful.
 
