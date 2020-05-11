@@ -27,7 +27,8 @@ No method is guaranteed, but the usual recommended method is to disable the `Goo
 #### Using registry policies
 You can also try using registry policies to disable updates, but this depends on Chrome actually listening to the policies in question.
 
-A registry file to perform this step for you can be found here: https://raw.githubusercontent.com/planetarian/KCDocumentation/master/Chrome83KC3Fix/DisableChromeUpdates.reg
+A registry file to perform this step for you can be found here (right-click -> save):
+https://raw.githubusercontent.com/planetarian/KCDocumentation/master/Chrome83KC3Fix/DisableChromeUpdates.reg
 
 ### Option C: Install Chromium
 Alternatively, you can use an alternative version of Chrome that doesn't update automatically, such as Chromium.
