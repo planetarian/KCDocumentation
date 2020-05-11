@@ -23,7 +23,7 @@ The simplest fix is to disable Site Isolation. You can do this by navigating to 
 Remember, Site Isolation is a security feature. Disabling it could leave you potentially vulnerable to certain types of attacks if you're not careful.
 
 ### Option B: Disable Updates
-If you're already on a version earlier than 83, you can try disabling the auto-update mechanism. Unfortunately, Chrome doesn't make it easy to disable updates.
+If you're already on a version earlier than 83, you can try disabling the auto-update mechanism. Unfortunately, Chrome doesn't make it easy to do so.
 
 Of course, disabling updates comes with the caveat of not being able to receive new security features when they're published, so if you choose this route, you should only keep updates disabled until the bug has been reported as fixed.
 
