@@ -23,6 +23,8 @@ Remember, Site Isolation is a security feature. Disabling it could leave you pot
 ### Option B: Disable Updates
 If you're already on a version earlier than 83, you can try disabling the auto-update mechanism. Unfortunately, Chrome doesn't make it easy to disable updates.
 
+Of course, disabling updates comes with the caveat of not being able to receive new security features when they're published, so if you choose this route, you should only keep updates disabled until the bug has been reported as fixed.
+
 #### Disabling GoogleUpdate.exe
 No method is guaranteed, but the usual recommended method is to disable the `GoogleUpdate.exe` service. You can do this via `taskmgr`, `msconfig`, `services.msc`, or `regedit`, if you know what you're doing.
 
@@ -34,5 +36,7 @@ https://raw.githubusercontent.com/planetarian/KCDocumentation/master/Chrome83KC3
 
 ### Option C: Install Chromium
 Alternatively, you can use an alternative version of Chrome that doesn't update automatically, such as Chromium.
+
+This may be the most ideal option, as you can use this alternative browser purely for KC while your everyday browsing remains secure.
 
 You can find a stable build of Chromium v81 here: https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Win_x64%2F737173%2Fchrome-win.zip?generation=1580439619624464&alt=media
