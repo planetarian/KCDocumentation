@@ -3,7 +3,7 @@ There exists a bug(?) in Chrome version 83 which causes KC3's devtools panel to 
 
 It is easy to work around this by simply closing and reopening devtools, but you must remember to do this on every F5 as well, otherwise your KC3 will appear to be functional but will not update when you perform game actions.
 
-This creates the potential for accidents, so further, more effective workarounds have been investigated.
+This creates the potential for accidents, so more effective workarounds have been investigated.
 
 ## The issue
 
