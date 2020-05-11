@@ -41,4 +41,6 @@ Alternatively, you can use an alternative version of Chrome that doesn't update 
 
 This may be the most ideal option, as you can use this alternative browser purely for KC while your everyday browsing remains secure.
 
-You can find a stable build of Chromium v81 here: https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Win_x64%2F737173%2Fchrome-win.zip?generation=1580439619624464&alt=media
+You can find a stable build of Chromium 81 in a .zip package here: https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Win_x64%2F737173%2Fchrome-win.zip?generation=1580439619624464&alt=media
+
+just extract it somewhere and run Chrome.exe.
