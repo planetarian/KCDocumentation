@@ -28,10 +28,10 @@ If you're already on a version earlier than 83, you can try disabling the auto-u
 Of course, disabling updates comes with the caveat of not being able to receive new security features when they're published, so if you choose this route, you should only keep updates disabled until the bug has been reported as fixed.
 
 #### Disabling GoogleUpdate.exe
-No method is guaranteed, but the usual recommended method is to disable the `GoogleUpdate.exe` service. You can do this via `taskmgr`, `msconfig`, `services.msc`, or `regedit`, if you know what you're doing.
+No method is guaranteed, but the usual recommended method is to disable the `GoogleUpdate.exe` service. You can do this via `taskmgr`, `msconfig`, `services.msc`, or `regedit`, if you know what you're doing. (this method has not been verified)
 
 #### Using registry policies
-You can also try using registry policies to disable updates, but this depends on Chrome actually listening to the policies in question.
+You can also try using registry policies to disable updates, but this depends on Chrome actually listening to the policies in question. (this method has not been verified either)
 
 A registry file to perform this step for you can be found here (right-click -> save link):
 https://raw.githubusercontent.com/planetarian/KCDocumentation/master/Chrome83KC3Fix/DisableChromeUpdates.reg
