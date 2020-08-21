@@ -32,17 +32,19 @@ Click `Import built-in basic cache dump`, and click `Save`.
    
 ### Option B: Full cache dump:
 
-1) Download the latest cache dump (check the date) from here:
+1) Download the latest full cache dump `cache-YYYY-MM-DD.zip` (verify the date), and optionally, all of the the `cache-diff-YYYY-MM-DD-to-YYYY-MM-DD.zip` files with dates *after* that, from one of these sources:
 
-   https://mega.nz/#F!sOwClABa!yHldyYZr2MBqhTNYEupztg
+   MEGA: https://mega.nz/#F!sOwClABa!yHldyYZr2MBqhTNYEupztg
    
-2) Open Windows Explorer and navigate to where you downloaded the file (If you're not sure, you can probably get there by putting `%UserProfile%\Downloads` in your address bar).
+   Mirror: http://shizuru.piro.moe/kccp/
+   
+2) Open KCCacheProxy from your start menu, and click the `Import cache dump` button (*not* `Import built-in basic cache dump`!).
 
-3) Extract the cache dump you downloaded (should be something like `cache-<date>.zip`) anywhere. This should create a `cache` folder in the extracted location.
+3) Select the `cache-YYYY-MM-DD.zip` file you downloaded in step #1, and click Open.
 
-4) Enter the `cache` folder, and copy the path from the address bar.
+4) Wait for the message in the proxy log confirming success of the cache dump import.
 
-5) Open KCCacheProxy from your start menu, and paste the copied path in the `Cache location` field.
+5) Repeat steps 2 through 4 for each of the `cache-diff-...` files downloaded in step #1, *in order from oldest to newest*.
 
 6) Configure the rest of the options as desired.
 
