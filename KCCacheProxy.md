@@ -42,7 +42,7 @@ Click `Import built-in basic cache dump`, and click `Save`.
 
 3) Select the `cache-YYYY-MM-DD.zip` file you downloaded in step #1, and click Open.
 
-4) Wait for the message in the proxy log confirming success of the cache dump import.
+4) The import process may take some time, and the window may appear to freeze in the meantime. This is normal. Wait for the message in the proxy log confirming success of the cache dump import.
 
 5) Repeat steps 2 through 4 for each of the `cache-diff-...` files downloaded in step #1, *in order from oldest to newest*.
 
