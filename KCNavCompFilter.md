@@ -62,6 +62,7 @@ Example: `DD XX` will match all fleets with one Destroyer, one additional ship o
 The 'Open-ended' wildcard allows you to specify a placeholder for *any number of ships* not already accounted for by the rest of the query. It will match any number (zero or more) of any type of ship, as long as they do not conflict with the other query criteria.
 
 Example 1: `DD *` will match all fleets with at least one Destroyer, and any number (including zero) of *any other ships*.
+
 Example 2: `Taigei SS *` will match all fleets with Taigei, at least one Submarine, and any number (including zero) of *any other ships*.
 
 ### Combining wildcards
@@ -80,9 +81,9 @@ If you wish to specify that a fleet should include more than one of a specific c
 ### Strict count: `=`
 Normally, wildcards (`XX` and `*`) can match additional ships of classes you've already specified in the query. For instance, in an example above, `DD XX` can potentially match fleets with two Destroyers.
 
-If you want greater control over the exact quantities matched of a given class, you can use the 'strict' prefix (`=`). This will force the query to *only* match *exactly* the number you specifiy, and the wildcard will no longer be allowed to match that class.
+If you want greater control over the exact quantities matched of a given class, you can use the 'strict' prefix (`=`). This will force the query to *only* match *exactly* the number you specify, and the wildcard will no longer be allowed to match that class.
 
-Example: `BB =2DD *` will match fleets with *one or more* Battleships, and *exactly two* Destroyers. the `=2DD` tells it that the count is *explicit*, and it shouldn't attempt to match additional Destroyers using the `*` wildcard.
+Example: `BB =2DD *` will match fleets with *one or more* Battleships, and *exactly two* Destroyers. the `=2DD` tells it that the count is *strict*, and it shouldn't attempt to match additional Destroyers using the `*` wildcard.
 
 ## Variable counts
 In more complex queries, you might have more specific requirements for the counts of specific classes. There are a number of ways to build more dynamic searches, as outlined in the following sections.
