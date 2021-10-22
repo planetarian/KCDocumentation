@@ -48,7 +48,7 @@ Typically, the Compositions filter operates in an *explicit* inclusion mode. Thi
 
 In order to match a subset of the fleet while still returning full fleets of six ships, you *must* account for the remaining ships. There are ways to perform more open-ended queries, as seen in the following sections.
 
-### Wildcards
+## Wildcards
 If you wish to only specify explicit values for *part* of a fleet's composition, while not caring so much about the rest, you can use wildcard syntax. There are two types of wildcards: *explicit* and *open-ended*.
 
 ### Explicit wildcard: `XX`
