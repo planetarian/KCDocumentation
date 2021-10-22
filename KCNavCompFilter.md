@@ -1,4 +1,6 @@
 # The Compositions Filter
+   ![KCNav Compositions filter screeenshot](/KCNavCompFilter/CompFilter.png)
+
 The Compositions filter is one of the most important and often least-understood elements of KCNav's filtering system. It allows you to specify criteria to match against the fleet compositions used in sorties. Using this filter, you can specify ships and classes to be included or excluded, and even place restrictions upon how many of each ship class the fleets should have.
 
 ## Search terms
