@@ -96,7 +96,7 @@ Example: `2-4DD *` will match all fleets with at least two, and at most four Des
 ### Comparators: `>`, `>=`, `<`, `<=`
 Another option for specifying varying numbers of a given class is via comparators. The logic is similar to how you might do numeric comparisons in mathematics, using 'greater than' (`>`), 'greater than or equal to' (`>=`), 'less than' (`<`), and 'less than or equal to' (`<=`).
 
-Example 1: `BB CVL CL <2DD *` will match fleets with one Battleship, one Light Carrier, one Light Cruiser, *fewer than two* Destroyers, and any number of other ships.
+Example 1: `BB CVL CL <2DD *` will match fleets with one Battleship, one Light Carrier, one Light Cruiser, *zero or one* (less than two) Destroyers, and any number of other ships.
 
 Example 2: `>=3DD` will match fleets with three or more ships, all of which must be Destroyers.
 
