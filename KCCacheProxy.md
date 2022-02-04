@@ -95,6 +95,8 @@ Edge: https://github.com/planetarian/KCDocumentation/raw/master/KCCacheProxy/KC_
 
 3) Click ProxySwitch's circle icon next to the address bar again,
    and click `Auto Switch`.
+
+   ![Activating the proxy connection](/KCCacheProxy/B8.png)
    
 ### Option B: don't use Auto Switch (not recommended)
 
@@ -105,8 +107,6 @@ KCCP will only take any action for KanColle traffic, but the log may be littered
 1) Click ProxySwitch's circle icon next to the address bar again,
    and click `KC`.
 
-
-   ![Activating the proxy connection](/KCCacheProxy/B8.png)
 
 
 
