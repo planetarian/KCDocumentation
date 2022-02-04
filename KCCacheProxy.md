@@ -77,15 +77,42 @@ It should start automatically with Windows; if it does not appear in the system 
 
    ![Configuring proxy server](/KCCacheProxy/A11.png)
 
-6) Click ProxySwitch's circle icon next to the address bar again,
+Now you have two options.
+
+### Option A: use Auto Switch (recommended)
+
+This configures the browser so that ONLY KanColle traffic will be sent through KCCP.
+
+It is the recommended method, but is a little more complicated.
+
+1) Download one of the following registry files, depending on your browser of choice.
+
+Chrome: https://github.com/planetarian/KCDocumentation/raw/master/KCCacheProxy/KC_CORS_fix_Chrome.reg
+
+Edge: https://github.com/planetarian/KCDocumentation/raw/master/KCCacheProxy/KC_CORS_fix_Edge.reg
+
+2) Open the .reg file you downloaded and click Yes when prompted to add the file to the registry.
+
+3) Click ProxySwitch's circle icon next to the address bar again,
    and click `Auto Switch`.
+   
+### Option B: don't use Auto Switch (not recommended)
+
+This configures the browser so that *all* traffic flows through KCCP.
+
+KCCP will only take any action for KanColle traffic, but the log may be littered with information about unrelated traffic.
+
+1) Click ProxySwitch's circle icon next to the address bar again,
+   and click `KC`.
+
 
    ![Activating the proxy connection](/KCCacheProxy/B8.png)
 
-7) Restart your browser.
 
 
 ## Playing with proxy
+
+Once you've applied the above settings, restart your browser.
 
 If everything worked, after you restart your browser and attempt to access the game,
 you will begin seeing `GET:` messages in the console (if you have it visible).
