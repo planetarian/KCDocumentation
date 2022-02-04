@@ -91,7 +91,7 @@ Chrome: https://github.com/planetarian/KCDocumentation/raw/master/KCCacheProxy/K
 
 Edge: https://github.com/planetarian/KCDocumentation/raw/master/KCCacheProxy/KC_CORS_fix_Edge.reg
 
-DISCLAIMER: These are registry files which apply settings to your computer which cause the browser to ignore the usual CORS restrictions when dealing with IP addresses used by the KanColle servers. These are not harmful changes, and they affect nothing outside of the KC/DMM servers, but undoing these changes requires manual action.
+*DISCLAIMER: These are registry files which apply settings to your computer which cause the browser to ignore the usual CORS restrictions when dealing with IP addresses used by the KanColle servers. These are not harmful changes, and they affect nothing outside of the KC/DMM servers, but undoing these changes requires manual action.*
 
 2) Open the .reg file you downloaded and click Yes when prompted to add the file to the registry.
 
