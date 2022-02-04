@@ -34,7 +34,7 @@ Click `Import built-in basic cache dump`, and click `Save`.
 
 1) Download the latest full cache dump `cache-YYYY-MM-DD.zip` (verify the date), and optionally, all of the the `cache-diff-YYYY-MM-DD-to-YYYY-MM-DD.zip` files with dates *after* that, from one of these sources:
 
-   MEGA: https://mega.nz/#F!sOwClABa!yHldyYZr2MBqhTNYEupztg
+   MEGA: https://mega.nz/folder/x2IE1J5D#G4C6C34SCPYsN-cTq6Tdwg
    
    Mirror: http://shizuru.piro.moe/kccp/
    
