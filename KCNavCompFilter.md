@@ -83,7 +83,7 @@ Normally, wildcards (`XX` and `*`) can match additional ships of classes you've 
 
 If you want greater control over the exact quantities matched of a given class, you can use the 'strict' prefix (`=`). This will force the query to *only* match *exactly* the number you specify, and the wildcard will no longer be allowed to match that class.
 
-Example: `BB =2DD *` will match fleets with *one or more* Battleships, and *exactly two* Destroyers. the `=2DD` tells it that the count is *strict*, and it shouldn't attempt to match additional Destroyers using the `*` wildcard.
+Example: `BB =2DD *` will match fleets with *one or more* Battleships, *exactly two* Destroyers, and any number (including zero) of any *other* ship classes. the `=2DD` tells it that the count is *strict*, and it shouldn't attempt to match additional Destroyers using the `*` wildcard.
 
 ## Variable counts
 In more complex queries, you might have more specific requirements for the counts of specific classes. There are a number of ways to build more dynamic searches, as outlined in the following sections.
