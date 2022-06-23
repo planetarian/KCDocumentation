@@ -9,7 +9,7 @@ The basic terms used within the Compositions filter are *ships* and *classes*, a
 [^1]: The Ship Classes filter always shows the English names for these classes, but localized names for them can be viewed by hovering your mouse over the class in question.
 
 ### Ship names
-Ship names are always interpreted literally. For instance, if you specify `Nelson`, it will assume you mean *base* Nelson, *not* remodeled Nelson. If you wish to search for a remodel, you must specify the *exact* remodel you're searching for, e.g. `Nelson Kai`.
+Ship names are always interpreted literally. For instance, if you specify `Nelson`, it will assume you mean *base* Nelson, *not* remodeled Nelson Kai. If you wish to search for a remodel, you must specify the *exact* remodel you're searching for, e.g. `Nelson Kai`.
 
 If you misspell a ship name, KCNav will usually be able figure out what you intended, as long as it's still fairly close.
 
