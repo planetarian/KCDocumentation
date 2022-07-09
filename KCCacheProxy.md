@@ -12,7 +12,9 @@ No game files are modified in the process.
 
 ## Installing/starting the proxy (Windows):
 
-Download and install `KCCacheProxy-<version>.Setup.exe` from https://github.com/Tibowl/KCCacheProxy/releases
+Download and install `KCCacheProxy-<version>.Setup.exe` from here:
+
+   https://github.com/Tibowl/KCCacheProxy/releases
 
 ## Setting up the cache
 
@@ -42,13 +44,11 @@ Click `Import built-in basic cache dump`, and click `Save`.
 
 4) The import process may take some time, and the window may appear to freeze in the meantime. This is normal. Wait for the message in the proxy log confirming success of the cache dump import.
 
-5) Repeat steps 2 through 4 for each of the `cache-diff-...` files downloaded in step #1, *in order from oldest to newest*.
-
-6) Configure the rest of the options as desired.
+5) Configure the rest of the options as desired.
 
 (Recommended: check `Start in system tray` and `Bypass checking for gadget updates`.)
 
-7) Click `Save`.
+6) Click `Save`.
 
    ![Configuring full cache dump](/KCCacheProxy/A12.png)
 
