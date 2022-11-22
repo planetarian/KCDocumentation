@@ -88,7 +88,11 @@ This configures the browser so that ONLY KanColle traffic will be sent through K
 
 It is the recommended method, but is a little more complicated.
 
-1) Download one of the following registry files, depending on your browser of choice.
+1) Download one of the registry files below, depending on your browser of choice.<br>
+   a. Rightclick the link, and click 'Save link as'<br>
+   b. Make sure the `Save as type` dropdown is set to either `Registration entries` or `All files` (not `TXT File`)<br>
+   c. Make sure the file name ends with `.reg` and not `.reg.txt`.<br>
+![image](https://user-images.githubusercontent.com/1724041/203416878-e085f040-59d1-4f94-b109-ed68935a58e8.png)
 
 Chrome: https://github.com/planetarian/KCDocumentation/raw/master/KCCacheProxy/KC_CORS_fix_Chrome.reg
 
@@ -96,7 +100,9 @@ Edge: https://github.com/planetarian/KCDocumentation/raw/master/KCCacheProxy/KC_
 
 *DISCLAIMER: These are registry files which apply settings to your computer which cause the browser to ignore the usual CORS restrictions when dealing with IP addresses used by the KanColle servers. These are not harmful changes, and they affect nothing outside of the KC/DMM servers, but undoing these changes requires manual action.*
 
-2) Open the .reg file you downloaded and click Yes when prompted to add the file to the registry.
+
+2) After you've saved the file, open it. Windows will ask you to verify you wish to apply the settings, so click Yes.<br>
+![image](https://user-images.githubusercontent.com/1724041/203417327-42d66614-87f9-4040-af1c-ceab49d9ddda.png)
 
 3) Click ProxySwitch's circle icon next to the address bar again,
    and click `Auto Switch`.
