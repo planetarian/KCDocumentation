@@ -105,3 +105,50 @@ By prefixing the open-ended wildcard `*` with a numeric constraint, you can plac
 
 Example: `>=2DD <=4*` will match all fleets with *four or less* ships total, where *two or more* of those ships are Destroyers.
 
+## Multi-class selectors
+Frequently, being forced to provide the exact set of classes is inadequate. For instance, you might want to see runs that include all battleship variants, including fast and aviation battleships. Or you might not care about the distinction between standard carriers and armored carriers. With the multi-class syntax, it's possible to achieve this by specifying multiple classes for any given entry in the query.
+
+### Delimited class lists
+The standard way of doing this is by using a delimiter to provide a list of classes the query should try to match.
+
+By separating the classes with the `|` or `/` symbol, it will attempt to match against any class within the specified list. It does not matter which of the two symbols you use.
+
+Example 1: `CL/DD` will match either a light cruiser or destroyer. This can also be written as `CL|DD`.
+
+Example 2: `BB|BBV|FBB` will match any battleship variant.
+
+### Multi-class shorthand
+In addition to manually specifying the list of classes to match against, KCNav also supports the following shorthand syntax:
+
+`(F)BB`, `BB(V)`, `(F)BB(V)`, `BB*`: Battleship variants (BB, FBB, BBV)
+
+`CV(L)`, `CV(B)`, `CV(B/L)`, `CV(L/B)`, `CV*`: Carrier variants (CV, CVB, CVL)
+
+`CA(V)`, `CA*`: Heavy cruiser variants (CA|CAV)
+
+`CL(T)`: Light/torpedo cruisers (CL|CLT)
+
+`CL*`: Light/torpedo/training cruisers (CL|CLT|CT)
+
+`SS(V)`, `SS*`: Submarine variants (SS|SSV)
+
+`DD(E)`, `DD*`: Destroyers and coastal defense ships (DD|DE)
+
+`AUX`: Seaplane tenders, repair ships, submarine tenders, fleet oilers, amphibious assault ships (AV|AR|AS|AO|LHA)
+
+`HEAVY`: Heavy ships (BB|FBB|BBV|CV|CVB)
+
+`MEDIUM`, `MED`: Medium ships (CA|CAV|CL|CT|CLT)
+
+`LIGHT`: Light ships (DD|DE|SS|SSV)
+
+`SUB`: Submarine fleet ships (AS|SS|SSV)
+
+`AVIATION`, `VV`: Aviation ships (BBV|CV|CVL|CVB|CAV|AV)
+
+`TORP`, `TS`: Torpedo squadron ships (CL|CLT|DD)
+
+### Class counts
+The multi-class syntax can be used in the same ways as single-class syntax, including the use of class counts, ranges, and explicit markers.
+
+Example: `(F)BB =2HEAVY 1-2DD|DE *` will match against one BB or FBB, exactly two 'heavy' ships (battleship variants and standard/armored carriers), one or two destroyers or coastal defense ships, and any number of ships of any class that are *not* 'heavy' ships, destroyers, or coastal defense ships (due to the `=` prefix on the HEAVY entry and the range constraint on the DD|DE entry).
