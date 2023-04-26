@@ -151,4 +151,8 @@ In addition to manually specifying the list of classes to match against, KCNav a
 ### Class counts
 The multi-class syntax can be used in the same ways as single-class syntax, including the use of class counts, ranges, and explicit markers.
 
-Example: `(F)BB =2HEAVY 1-2DD|DE *` will match against one BB or FBB, exactly two 'heavy' ships (battleship variants and standard/armored carriers), one or two destroyers or coastal defense ships, and any number of ships of any class that are *not* 'heavy' ships, destroyers, or coastal defense ships (due to the `=` prefix on the HEAVY entry and the range constraint on the DD|DE entry).
+Note that when you specify a count for a multi-class entry, it will allow for any combination of the specified classes that meets the counts specified.
+
+Example 1: `2DD|DE` will match DD+DD, or DE+DE, or DD+DE.
+
+Example 2: `(F)BB =2HEAVY 1-2DD|DE *` will match against one BB or FBB, exactly two 'heavy' ships (battleship variants and standard/armored carriers), one or two destroyers or coastal defense ships, and any number of ships of any class that are *not* 'heavy' ships, destroyers, or coastal defense ships (due to the `=` prefix on the HEAVY entry and the range constraint on the DD|DE entry).
