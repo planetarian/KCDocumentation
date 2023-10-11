@@ -17,7 +17,7 @@ No game files are modified in the process.
 
 ## Installing/starting the proxy (Windows):
 
-Download and install `KCCacheProxy-<version>.Setup.exe` from here:
+Download and install `KCCacheProxy-<version>.Setup-x64.exe` from here:
 
    https://github.com/Tibowl/KCCacheProxy/releases
 
