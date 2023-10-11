@@ -21,6 +21,14 @@ Download and install `KCCacheProxy-<version>.Setup-x64.exe` from here:
 
    https://github.com/Tibowl/KCCacheProxy/releases
 
+After it's installed, open KCCacheProxy from your start menu and configure the options as desired.
+
+* Recommended settings: check `Start in system tray` and `Bypass checking for gadget updates`.
+
+* Optional: You can change the `Cache location` if you want to store the game files in a specific location. Otherwise, it will store the files in `%AppData%\KCCacheProxy\ProxyData\cache`. Make sure you have enough space for the cache files (4+ GB) on the drive where they will be stored.
+
+   ![Configuring basic settings](/KCCacheProxy/A10A.png)
+
 ## Setting up the cache
 
 You have the option of either starting from a minimal cache, containing only the most crucial set of starting files, OR you can start from a full cache dump, which is 4+ GB and may take some time to download.
@@ -29,13 +37,9 @@ If you start from the full cache dump, the proxy will have almost all game files
 
 ### Option A: Minimal cache:
 
-Open KCCacheProxy from your start menu, configure the options as desired.
+* Click `Import built-in basic cache dump`, and click `Save`.
 
-(Recommended: check `Start in system tray` and `Bypass checking for gadget updates`.)
-
-Click `Import built-in basic cache dump`, and click `Save`.
-
-   ![Importing basic cache dump](/KCCacheProxy/A10.png)
+   ![Importing basic cache dump](/KCCacheProxy/A10B.png)
    
 ### Option B: Full cache dump:
 
@@ -43,39 +47,40 @@ Click `Import built-in basic cache dump`, and click `Save`.
    
    http://shizuru.piro.moe/kccp/
    
-2) Open KCCacheProxy from your start menu, and click the `Import cache dump` button (*not* `Import built-in basic cache dump`!).
+2) Click the `Import cache dump` button (*not* `Import built-in basic cache dump`!).
 
 3) Select the `cache-YYYY-MM-DD.zip` file you downloaded in step #1, and click Open.
 
 4) The import process may take some time, and the window may appear to freeze in the meantime. This is normal. Wait for the message in the proxy log confirming success of the cache dump import.
 
-5) Configure the rest of the options as desired.
+5) Click `Save`.
 
-(Recommended: check `Start in system tray` and `Bypass checking for gadget updates`.)
-
-6) Click `Save`.
-
-   ![Configuring full cache dump](/KCCacheProxy/A12.png)
+   ![Configuring full cache dump](/KCCacheProxy/A10C.png)
 
 ### After cache has been configured
 
 You may now close the window, and it will continue running in your system tray.
-It should start automatically with Windows; if it does not appear in the system tray after you start Windows, you can launch it from the start menu.
+It should start automatically with Windows if you configured it to do so.
+If it does not appear in the system tray after you start Windows, you can launch it from the start menu.
  
 ## Enabling proxy for Chrome/KC3:
 
 1) Install the browser extension ProxySwitch Omega:
+
    https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif
 
 2) You should have a little circle icon for ProxySwitch Omega next to the browser's
-   address bar. Click it, and click `Options`. It will try to guide you
-   through stuff, feel free to click your way through or skip the tutorial messages.
+   address bar, or in your browser's `Extensions` menu.
+
+   Click it, and click `Options`. It will try to guide you through stuff; feel free to click your way through or skip the tutorial messages.
 
    ![Accessing ProxySwitch Omega options](/KCCacheProxy/B2.png)
 
 3) In the options screen, on the left menu, under `Settings`, select `Import/Export`. 
-4) Enter the following address in the `Restore from online` field:
-   https://raw.githubusercontent.com/Tibowl/KCCacheProxy/master/misc/OmegaOptions.bak
+4) Copy the following address, and paste it into the `Restore from online` field:
+
+   `https://raw.githubusercontent.com/Tibowl/KCCacheProxy/master/misc/OmegaOptions.bak`
+   
 5) Click `Restore`.
 
    ![Configuring proxy server](/KCCacheProxy/A11.png)
@@ -113,7 +118,7 @@ Edge: https://github.com/planetarian/KCDocumentation/raw/master/KCCacheProxy/KC_
 
 This configures the browser so that *all* traffic flows through KCCP.
 
-KCCP will only take any action for KanColle traffic, but the log may be littered with information about unrelated traffic.
+KCCP will only take any action for KanColle traffic, but the log may be littered with information about unrelated traffic, and sites will fail to load without KCCP running.
 
 1) Click ProxySwitch's circle icon next to the address bar again,
    and click `KC`.
