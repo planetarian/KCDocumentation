@@ -4,335 +4,327 @@
         "defaultProfileName": "direct",
         "name": "Auto Switch",
         "profileType": "SwitchProfile",
-        "revision": "17090867e03",
+        "revision": "193e4e463fa",
         "rules": [
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.71/kcs/*"
+                    "pattern": "http://w01y.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Yokosuka Naval Distric",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Yokosuka Naval Distric"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.71/kcs2/*"
+                    "pattern": "http://w01y.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Yokosuka Naval Distric",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Yokosuka Naval Distric"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.87/kcs/*"
+                    "pattern": "http://w02k.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Kure Naval District",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Kure Naval District"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.87/kcs2/*"
+                    "pattern": "http://w02k.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Kure Naval District",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Kure Naval District"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.184.215/kcs/*"
+                    "pattern": "http://w03s.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Sasebo Naval District",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Sasebo Naval District"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.184.215/kcs2/*"
+                    "pattern": "http://w03s.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Sasebo Naval District",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Sasebo Naval District"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.183/kcs/*"
+                    "pattern": "http://w04m.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Maizuru Naval District",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Maizuru Naval District"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.183/kcs2/*"
+                    "pattern": "http://w04m.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Maizuru Naval District",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Maizuru Naval District"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.150/kcs/*"
+                    "pattern": "http://w05o.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Ominato Guard District",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Ominato Guard District"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.150/kcs2/*"
+                    "pattern": "http://w05o.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Ominato Guard District",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Ominato Guard District"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.134/kcs/*"
+                    "pattern": "http://w06t.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Truk Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Truk Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.134/kcs2/*"
+                    "pattern": "http://w06t.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Truk Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Truk Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.167/kcs/*"
+                    "pattern": "http://w07l.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Lingga Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Lingga Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.167/kcs2/*"
+                    "pattern": "http://w07l.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Lingga Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Lingga Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.199/kcs/*"
+                    "pattern": "http://w08r.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Rabaul Naval Base",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Rabaul Naval Base"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.199/kcs2/*"
+                    "pattern": "http://w08r.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Rabaul Naval Base",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Rabaul Naval Base"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.7/kcs/*"
+                    "pattern": "http://w09s.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Shortland Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Shortland Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.7/kcs2/*"
+                    "pattern": "http://w09s.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Shortland Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Shortland Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.39/kcs/*"
+                    "pattern": "http://w10b.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Buin Naval Base",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Buin Naval Base"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.39/kcs2/*"
+                    "pattern": "http://w10b.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Buin Naval Base",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Buin Naval Base"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.71/kcs/*"
+                    "pattern": "http://w11t.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Tawi-Tawi Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Tawi-Tawi Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.71/kcs2/*"
+                    "pattern": "http://w11t.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Tawi-Tawi Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Tawi-Tawi Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.103/kcs/*"
+                    "pattern": "http://w12p.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Palau Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Palau Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.103/kcs2/*"
+                    "pattern": "http://w12p.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Palau Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Palau Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.135/kcs/*"
+                    "pattern": "http://w13b.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Brunei Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Brunei Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.135/kcs2/*"
+                    "pattern": "http://w13b.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Brunei Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Brunei Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.167/kcs/*"
+                    "pattern": "http://w14h.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Hitokappu Bay Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Hitokappu Bay Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.167/kcs2/*"
+                    "pattern": "http://w14h.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Hitokappu Bay Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Hitokappu Bay Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.215/kcs/*"
+                    "pattern": "http://w15p.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Paramushir Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Paramushir Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.215/kcs2/*"
+                    "pattern": "http://w15p.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Paramushir Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Paramushir Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.247/kcs/*"
+                    "pattern": "http://w16s.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Sukumo Bay Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Sukumo Bay Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://125.6.189.247/kcs2/*"
+                    "pattern": "http://w16s.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Sukumo Bay Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Sukumo Bay Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.23/kcs/*"
+                    "pattern": "http://w17k.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Kanoya Airfield",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Kanoya Airfield"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.23/kcs2/*"
+                    "pattern": "http://w17k.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Kanoya Airfield",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Kanoya Airfield"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.39/kcs/*"
+                    "pattern": "http://w18i.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Iwagawa Airfield",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Iwagawa Airfield"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.39/kcs2/*"
+                    "pattern": "http://w18i.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Iwagawa Airfield",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Iwagawa Airfield"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.55/kcs/*"
+                    "pattern": "http://w19s.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Saiki Bay Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Saiki Bay Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.55/kcs2/*"
+                    "pattern": "http://w19s.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Saiki Bay Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Saiki Bay Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.102/kcs/*"
+                    "pattern": "http://w20h.kancolle-server.com/kcs/*"
                 },
-                "note": "KCS - Hashirajima Anchorage",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS - Hashirajima Anchorage"
             },
             {
                 "condition": {
                     "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.102/kcs2/*"
+                    "pattern": "http://w20h.kancolle-server.com/kcs2/*"
                 },
-                "note": "KCS2 - Hashirajima Anchorage",
-                "profileName": "KC"
-            },
-            {
-                "condition": {
-                    "conditionType": "UrlWildcardCondition",
-                    "pattern": "http://203.104.209.7/*"
-                },
-                "note": "Gadget",
-                "profileName": "KC"
+                "profileName": "KC",
+                "note": "KCS2 - Hashirajima Anchorage"
             }
         ]
     },
@@ -371,6 +363,7 @@
     "-quickSwitchProfiles": [],
     "-refreshOnProfileChange": false,
     "-revertProxyChanges": false,
+    "-showExternalProfile": true,
     "-showInspectMenu": true,
     "-startupProfileName": "",
     "schemaVersion": 2
