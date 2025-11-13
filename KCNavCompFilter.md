@@ -30,7 +30,7 @@ Examples:
 `shoukek k2a` → Shoukaku Kai Ni A
 
 ### Classes
-Currently you can only specify classes to be included or excluded individually. There is no "OR" syntax, so things like `CV(B)` and `2(CA+CL)` are *not* currently supported. This may come in a future update.
+Currently you can only specify classes to be included or excluded individually. There is no "OR" syntax, so things like `2(CA+CL)` are *not* currently supported. This may come in a future update.
 
 ## Filter syntax
 The Compositions filter generally follows the English community's conventions for specifying fleet compositions. This is typically written as ship and class names, with a separator character between each entry. The separator character is typically a dash (`-`), but may alternatively be a comma (`,`), semicolon (`;`), or simply whitespace (` `).
